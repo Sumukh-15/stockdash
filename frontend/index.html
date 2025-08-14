@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>StockDash</title>
+  <link rel="stylesheet" href="./style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <header>
+    <h1>📈 StockDash</h1>
+    <div class="api-base">
+      <label>API:</label>
+      <input id="apiBase" value="http://localhost:8000" />
+      <button id="applyBase">Apply</button>
+    </div>
+  </header>
+
+  <main>
+    <aside id="companyList"></aside>
+
+    <section id="content">
+      <div class="stats">
+        <div class="stat"><div class="label">52W High</div><div class="value" id="high52">—</div></div>
+        <div class="stat"><div class="label">52W Low</div><div class="value" id="low52">—</div></div>
+        <div class="stat"><div class="label">Avg Volume</div><div class="value" id="avgVol">—</div></div>
+        <div class="stat"><div class="label">AI Next Close</div><div class="value" id="pred">—</div></div>
+      </div>
+
+      <div class="chart-wrap">
+        <canvas id="priceChart"></canvas>
+      </div>
+
+      <div class="chart-wrap">
+        <canvas id="rsiChart"></canvas>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <small>Built for JarNox — Live or mock data with indicators & prediction.</small>
+  </footer>
+
+  <script src="./app.js"></script>
+</body>
+</html>
