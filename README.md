@@ -138,6 +138,14 @@ docker build -t stockdash-backend .
 docker run -p 8000:8000 stockdash-backend
 ```
 
+### Backend(FastAPI or Render)
+- URL: https://stockdash-backend.onrender.com
+- Example API test: https://stockdash-backend.onrender.com/api/companies
+
+### Frontend (HTML/CSS/JS on Vercel)
+- URL: https://stockdash-git-main-sumukh-15s-projects.vercel.app
+- The frontend connects directly to the backend API above.
+
 ## 📸 Screenshots
 
 ![Dashboard View](Dashboard.png) 
