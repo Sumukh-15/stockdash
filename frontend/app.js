@@ -1,4 +1,4 @@
-let API_BASE = "http://localhost:8000";
+let API_BASE = "https://stockdash-backend.onrender.com/";
 const companiesEl = document.getElementById("companyList");
 const high52El = document.getElementById("high52");
 const low52El  = document.getElementById("low52");
