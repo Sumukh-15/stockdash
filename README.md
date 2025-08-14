@@ -73,8 +73,8 @@ stockdash/
 │   ├── GOOGL.csv
 │   ├── NVDA.csv
 │   ├── TSLA.csv
-
-#⚡ Quick Start
+```
+# ⚡ Quick Start
 
 ## 1️⃣ Clone the repository
 ```bash
@@ -102,13 +102,14 @@ uvicorn app:app --reload --port 8000
 
 ## 3️⃣ Frontend setup
 
-*Open frontend/index.html in your browser
-*Or run with VS Code Live Server (recommended)
-*In the top-right API field, enter:
+- Open frontend/index.html in your browser
+- Or run with VS Code Live Server (recommended)
+- In the top-right API field, enter:
+
 ```arduino
 http://localhost:8000
 ```
-*Click Apply
+- Click Apply
 
 ---
 
