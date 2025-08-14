@@ -107,7 +107,7 @@ uvicorn app:app --reload --port 8000
 - In the top-right API field, enter:
 
 ```arduino
-http://localhost:8000
+https://stockdash-backend.onrender.com
 ```
 - Click Apply
 
